@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">LAN is Run</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="signIn">Sign In</string>
+    <string name="register">Registration</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="patronymic">Patronymic</string>
+    <string name="NSP">NSP</string>
+    <string name="phone">Phone number</string>
+    <string name="address">Address</string>
+    <string name="reg">Registration</string>
+    <string name="item_profile">Profile</string>
+    <string name="item_shopping_cart">Shopping cart</string>
+    <string name="item_choice_of_services">Chose service</string>
+    <string name="item_my_contracts">My contracts</string>
+    <string name="item_about_app">About</string>
+    <string name="item_exit">Exit</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="shopping_cart_empty">Shopping cart is empty!</string>
+    <string name="shopping_cart_help">Open the "Chose service" and add necessary services!</string>
+    <string name="go_to_choice_of_services">Chose services</string>
+    <string name="my_contracts_empty">You have not got a contracts!</string>
+    <string name="my_contracts_help">To make a contract you need to make an order!</string>
+    <string name="name_service">Service name</string>
+    <string name="money_service">Service cost</string>
+    <string name="description">Service description</string>
+
+    <string name="code_contract">Contract code</string>
+    <string name="worker_nsp">Specialist phone number</string>
+    <string name="date_write">Date of signing</string>
+    <string name="period">Contract period</string>
+    <string name="money_contract">Contract cost</string>
+    <string name="services">Services</string>
+    <string name="service">Service</string>
+    <string name="edit_data_profile">Edit data profile</string>
+    <string name="edit_data">Edit data</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="about_app">
+        A local area network is a computer network that usually covers a relatively small area or a small group of buildings.
+        (house, office, firm, institute).
+        All modern local networks are divided into two types:
+        Peer-to-peer local networks are networks where all computers are equal: each of the computers can be both a server and a client.
+        The user of each of the computers decides for himself what resources will be shared and to whom.
+        Local networks with centralized management. In networks with centralized control, the security policy is common to all network users.
+        Depending on the purpose and size of the local network, either peer-to-peer networks or networks with centralized control are used.
+
+        Our program was created for convenient work with our clients.
+        You can choose the necessary services, place an order, and then it is up to us.
+    </string>
+</resources>

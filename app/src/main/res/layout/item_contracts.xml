@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@android:drawable/editbox_background"
+    android:elevation="10dp"
+    android:translationZ="10dp">
+
+    <TextView
+        android:id="@+id/contracts_item_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/edit_text_in_login_window"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:hint="@string/code_contract"
+        android:minHeight="50dp"
+        android:text=""
+        android:textColor="@color/colorLoginBlue"
+        android:textColorHint="@color/colorLoginBlue"
+        android:textSize="20sp"
+        android:translationZ="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/worker_nsp_item"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:elevation="10dp"
+        android:gravity="start|center_vertical"
+        android:hint="@string/worker_nsp"
+        android:minHeight="50dp"
+        android:text=""
+        android:textColor="@color/colorLoginBlue"
+        android:textColorHint="@color/colorLoginBlue"
+        android:textSize="20sp"
+        android:translationZ="10dp"
+        app:layout_constraintStart_toStartOf="@+id/contracts_item_code"
+        app:layout_constraintTop_toBottomOf="@+id/contracts_item_code" />
+
+    <TextView
+        android:id="@+id/date_write_item"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:elevation="10dp"
+        android:gravity="start|center_vertical"
+        android:hint="@string/date_write"
+        android:minHeight="50dp"
+        android:text=""
+        android:textColor="@color/colorLoginBlue"
+        android:textColorHint="@color/colorLoginBlue"
+        android:textSize="20sp"
+        android:translationZ="10dp"
+        app:layout_constraintStart_toStartOf="@+id/worker_nsp_item"
+        app:layout_constraintTop_toBottomOf="@+id/worker_nsp_item" />
+
+    <TextView
+        android:id="@+id/period_item"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:elevation="10dp"
+        android:gravity="start|center_vertical"
+        android:hint="@string/period"
+        android:minHeight="50dp"
+        android:text=""
+        android:textColor="@color/colorLoginBlue"
+        android:textColorHint="@color/colorLoginBlue"
+        android:textSize="20sp"
+        android:translationZ="10dp"
+        app:layout_constraintStart_toStartOf="@+id/date_write_item"
+        app:layout_constraintTop_toBottomOf="@+id/date_write_item" />
+
+    <TextView
+        android:id="@+id/money_contract_item"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:elevation="10dp"
+        android:gravity="start|center_vertical"
+        android:hint="@string/money_contract"
+        android:minHeight="50dp"
+        android:text=""
+        android:textColor="@color/colorLoginBlue"
+        android:textColorHint="@color/colorLoginBlue"
+        android:textSize="20sp"
+        android:translationZ="10dp"
+        app:layout_constraintStart_toStartOf="@+id/period_item"
+        app:layout_constraintTop_toBottomOf="@+id/period_item" />
+
+    <TextView
+        android:id="@+id/status_item"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:elevation="10dp"
+        android:gravity="start|center_vertical"
+        android:hint="@string/services"
+        android:minHeight="50dp"
+        android:text=""
+        android:textColor="@color/colorLoginBlue"
+        android:textColorHint="@color/colorLoginBlue"
+        android:textSize="20sp"
+        android:translationZ="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/money_contract_item"
+        app:layout_constraintTop_toBottomOf="@+id/money_contract_item" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="@+id/contracts_item_code"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/status_item"
+        app:layout_constraintTop_toTopOf="@+id/status_item"
+        app:srcCompat="@drawable/ic_baseline_print_24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

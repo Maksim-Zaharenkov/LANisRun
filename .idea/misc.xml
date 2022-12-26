@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/LAN is Run/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.25435897435897437" />
+        <entry key="..\:/LAN is Run/app/src/main/res/drawable/button_in_login_window.xml" value="0.25435897435897437" />
+        <entry key="..\:/LAN is Run/app/src/main/res/drawable/button_in_login_window_orange.xml" value="0.25435897435897437" />
+        <entry key="..\:/LAN is Run/app/src/main/res/drawable/edit_text_in_login_window.xml" value="0.25435897435897437" />
+        <entry key="..\:/LAN is Run/app/src/main/res/drawable/header_detail.xml" value="0.25435897435897437" />
+        <entry key="..\:/LAN is Run/app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.25435897435897437" />
+        <entry key="..\:/LAN is Run/app/src/main/res/drawable/ic_image_profile.xml" value="0.2388888888888889" />
+        <entry key="..\:/LAN is Run/app/src/main/res/drawable/ic_launcher_background.xml" value="0.25435897435897437" />
+        <entry key="..\:/LAN is Run/app/src/main/res/layout/activity_about_app.xml" value="0.2223731884057971" />
+        <entry key="..\:/LAN is Run/app/src/main/res/layout/activity_content_item_service.xml" value="0.21784420289855072" />
+        <entry key="..\:/LAN is Run/app/src/main/res/layout/activity_edit_data_profile.xml" value="0.20742753623188406" />
+        <entry key="..\:/LAN is Run/app/src/main/res/layout/activity_main.xml" value="0.2421875" />
+        <entry key="..\:/LAN is Run/app/src/main/res/layout/activity_my_contracts.xml" value="0.21739130434782608" />
+        <entry key="..\:/LAN is Run/app/src/main/res/layout/activity_personal_page.xml" value="0.2421875" />
+        <entry key="..\:/LAN is Run/app/src/main/res/layout/activity_profile.xml" value="0.2223731884057971" />
+        <entry key="..\:/LAN is Run/app/src/main/res/layout/activity_register.xml" value="0.2421875" />
+        <entry key="..\:/LAN is Run/app/src/main/res/layout/activity_shoping_cart.xml" value="0.21739130434782608" />
+        <entry key="..\:/LAN is Run/app/src/main/res/layout/activity_shopping_cart.xml" value="0.21739130434782608" />
+        <entry key="..\:/LAN is Run/app/src/main/res/layout/contract_contect.xml" value="0.23731884057971014" />
+        <entry key="..\:/LAN is Run/app/src/main/res/layout/contract_content.xml" value="0.121875" />
+        <entry key="..\:/LAN is Run/app/src/main/res/layout/fragment_about_app.xml" value="0.24139492753623187" />
+        <entry key="..\:/LAN is Run/app/src/main/res/layout/fragment_profile.xml" value="0.24139492753623187" />
+        <entry key="..\:/LAN is Run/app/src/main/res/layout/header_choice_of_services_menu.xml" value="0.2418478260869565" />
+        <entry key="..\:/LAN is Run/app/src/main/res/layout/header_personal_page_menu.xml" value="0.2421875" />
+        <entry key="..\:/LAN is Run/app/src/main/res/layout/item_contracts.xml" value="0.23731884057971014" />
+        <entry key="..\:/LAN is Run/app/src/main/res/layout/item_services.xml" value="0.2418478260869565" />
+        <entry key="..\:/LAN is Run/app/src/main/res/layout/item_shopping_cart.xml" value="0.2418478260869565" />
+        <entry key="..\:/LAN is Run/app/src/main/res/layout/service_content.xml" value="0.2418478260869565" />
+        <entry key="..\:/LAN is Run/app/src/main/res/layout/shopping_cart_content.xml" value="0.2418478260869565" />
+        <entry key="..\:/LAN is Run/app/src/main/res/layout/toolbar.xml" value="0.2421875" />
+        <entry key="..\:/LAN is Run/app/src/main/res/menu/drawer_choice_of_services_menu.xml" value="0.2421875" />
+        <entry key="..\:/LAN is Run/app/src/main/res/menu/drawer_personal_page_menu.xml" value="0.2421875" />
+        <entry key="..\:/LAN is Run/app/src/main/res/menu/toolbar_menu.xml" value="0.2421875" />
+        <entry key="..\:/LAN is Run/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.25435897435897437" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8 (3)" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

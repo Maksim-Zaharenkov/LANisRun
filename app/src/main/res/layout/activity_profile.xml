@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_profile"
+        style="@style/Toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="@string/item_profile" />
+
+    <ImageView
+        android:id="@+id/image_profile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_profile"
+        app:srcCompat="@drawable/ic_image_profile" />
+
+    <TextView
+        android:id="@+id/textView_profile_NSP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/NSP"
+        android:textColor="@color/colorLoginBlue"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/image_profile"
+        app:layout_constraintStart_toStartOf="@+id/image_profile"
+        app:layout_constraintTop_toBottomOf="@+id/image_profile" />
+
+    <TextView
+        android:id="@+id/textView_profile_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/phone"
+        android:textColor="@color/colorLoginBlue"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView_profile_NSP"
+        app:layout_constraintStart_toStartOf="@+id/textView_profile_NSP"
+        app:layout_constraintTop_toBottomOf="@+id/textView_profile_NSP" />
+
+    <TextView
+        android:id="@+id/textView_profile_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/address"
+        android:textColor="@color/colorLoginBlue"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView_profile_phone"
+        app:layout_constraintStart_toStartOf="@+id/textView_profile_phone"
+        app:layout_constraintTop_toBottomOf="@+id/textView_profile_phone" />
+
+    <Button
+        android:id="@+id/button_profile"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/ic_edit"
+        android:backgroundTint="@color/colorLoginBlue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_profile"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
